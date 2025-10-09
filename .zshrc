@@ -102,3 +102,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vim="nvim"
+alias vimconfig='cd ~/.config/nvim/; nvim .'
+
+# Set up fzf key bindings
+
+source <(fzf --zsh)
