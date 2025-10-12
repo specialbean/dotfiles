@@ -108,3 +108,4 @@ alias vimconfig='cd ~/.config/nvim/; nvim .'
 # Set up fzf key bindings
 
 source <(fzf --zsh)
+eval $(ssh-agent -s)
