@@ -109,3 +109,5 @@ alias vimconfig='cd ~/.config/nvim/; nvim .'
 
 source <(fzf --zsh)
 eval $(ssh-agent -s)
+
+. "$HOME/.local/bin/env"
